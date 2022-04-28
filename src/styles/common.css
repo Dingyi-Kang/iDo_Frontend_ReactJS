@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
+
+header {
+  font-size: 2rem;
+}
+
+header {
+  min-height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .friend{
+  min-height: 10vh;
+}
+form input, form button {
+  padding: 0rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+.friend{
+  margin-bottom:-0.8rem;
+}
+input::placeholder{
+  color:lightgray;
+  padding:0.5rem;
+}
+form button {
+  padding: 0 .35rem 0 .35rem;
+  color: #ff6f47;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+form button:hover {
+  background: #ff6f47;
+  color: white;
+}
+
+.ant-btn-primary.signout{
+  color: white;
+  border-color: white;
+  background: orange;
+  font-weight: bold;
+
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  font-size: 22px;
+  padding: .3rem 2rem 2rem 2rem;
+
+  border-radius: 4rem;
+  position: absolute;
+  margin-top: 2rem;
+  left: 50%;
+  right: 50%;
+  width: 300px;
+  height: 50px;
+}
+
+.site-input-group-wrapper {
+  height: 80px;
+  margin-left: 6rem;
+  margin-right: 0rem;
+  margin-top: 6rem;
+}
+
+.site-input-group-wrapper .input {
+  color: #fff;
+  border-color: #1890ff;
+  background: orange;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.site-input-group-wrapper .ant-input {
+  font-size: 20px;
+}
+.ant-btn-link {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.ant-card-head {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.ant-card-body {
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+}
+
+

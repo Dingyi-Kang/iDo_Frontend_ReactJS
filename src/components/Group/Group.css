@@ -1,0 +1,29 @@
+.colorTag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.colorTag .ant-tag{
+ font-size:20px;
+ padding:1rem;
+ border-radius: 40px 10px;
+  cursor: pointer;
+}
+
+.colorTag :hover{
+  color:black;
+ }
+
+.colorTag .selected{
+  border: solid white;
+  border-width:thick;
+}
+
+.space{
+  height:50px;
+  padding:0.1em;
+}

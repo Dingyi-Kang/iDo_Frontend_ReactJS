@@ -1,0 +1,151 @@
+
+@import '~antd/dist/antd.css';
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+h1, h2{
+  font-size: 3.5rem;
+}
+
+h4, h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+h5{
+  color:#f50;
+}
+input {
+  color: #000;
+}
+
+.container-item {
+  width: 100%;
+  padding: 0 0px;
+}
+
+.ant-card {
+  border: none;
+  border-radius: 40px 10px;
+  background: orange;
+  margin: 0 10rem 0 10rem;
+}
+
+.container-item h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.shortLeftSapce {
+  margin-left: 240px;
+}
+
+.longLeftSpace {
+  margin-left: 80px;
+}
+
+.map-container{
+  width:100%;
+  height:100vh;
+}
+
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 600px;
+}
+
+.places-action-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:600px;
+}
+
+.subContainer{
+  width:600px;
+}
+
+.places-container2 {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 200px;
+}
+
+.places-container3 {
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 200px;
+}
+
+.places-action-container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+}
+
+.subContainer2{
+  width:200px;
+}
+
+.combobox-input2 {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.mapbutton{
+  height:45px;
+  width:180px;
+  color:white;
+  background-color:orange;
+  font-weight:bolder;
+  padding: 0.2rem 0.2rem;
+  border-radius:0.5em;
+  border-color:white;
+  margin-left:0.3em;
+  
+}
+
+.mapTodoForm{
+  height:0;
+}
+
+.mapTodoContainer{
+  width:80%;
+  margin-left:40px;
+}
+.mapTodoContainer-hidden{
+  height:0;
+  overflow:hidden;
+}
+
+.mapTodoContent{
+  height:0;
+  margin-left:10px;
+  font-size: 16px;
+  font-feature-settings: 'tnum', "tnum";
+  font-variant: tabular-nums;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
